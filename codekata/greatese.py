@@ -1,7 +1,7 @@
 x=int(input(""))
 y=int(input(""))
 z=int(input(""))
-if((x>y>z)):
+if(x>y>z):
   largest=x
   print(largest)
 elif(y>z):
