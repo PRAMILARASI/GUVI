@@ -6,6 +6,6 @@ while(temp!=0):
   temp=temp/10
   reverse=reverse*10+d
 if(x==reverse):
- print("yes")
+ print("no")
 else:
-  print("no")
+  print("yes")
