@@ -2,11 +2,11 @@ x=int(input(""))
 y=int(input(""))
 z=int(input(""))
 if((x>y)&(x>z)):
-  greater=x
-  print(greater)
+  largest=x
+  print(largest)
 elif((y>x)&(y>z)):
-  greater=y
-  print (greater)
+  largest=y
+  print (largest)
 else:
-  greater=z
-  print(greater)
+  largest=z
+  print(largest)
