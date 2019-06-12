@@ -1,0 +1,11 @@
+x=int(input())
+reverse=0
+temp=x
+while(temp!=0):
+  d=temp%10
+  temp=temp/10
+  reverse=reverse*10+d
+if(x==reverse):
+ print("yes")
+else:
+  print("no")
