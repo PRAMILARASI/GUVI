@@ -1,3 +1,3 @@
-P=int(input())
-Q=[int(x) for x in input().split()]
-print(min(Q))
+e=int(input())
+B=[int(x) for x in input().split()]
+print(min(B))
