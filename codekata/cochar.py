@@ -1,8 +1,6 @@
-n=input()
-co=0
-for i in n:
-  if(i.isalnum() or (i==' ')):
-    co+=0
-  else:
-    co+=1
-print(co)
+W = input()
+count = 0
+for i in range(len(W)):
+  if W[i] in "!@#$%^&*_(){}[]:;,./?":
+    count += 1
+print(count)
