@@ -1,3 +1,3 @@
 e=int(input())
-B=[int(x) for x in input().split()]
+B=list(map(int,input().split()))
 print(min(B))
