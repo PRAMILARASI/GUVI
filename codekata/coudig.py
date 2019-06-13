@@ -1,6 +1,6 @@
 n=input()
-c=0
+D=0
 for i in n:
   if(i.isdigit()):
-    c+=1
-print(c)
+    D+=1
+print(D)
