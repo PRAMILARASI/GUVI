@@ -1,4 +1,4 @@
 e=int(input())
-B=list(map(int,input().split()))
-B.sort()
-print(*B)
+w=list(map(int,input().split()))
+w.sort()
+print(*w)
