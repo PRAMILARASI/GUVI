@@ -1,9 +1,10 @@
-a=list(input())
-if len(a)%2==0:
-   a[int(len(a/2))] ='*'
-   a[int(len(a)/2)-1] = '*'
+aa=list(input())
+if len(aa)%2==0:
+   aa[int(len(aa/2))] ='*'
+   aa[int(len(aa)/2)-1] = '*'
 else:
-   a[int(len(a)/2)]='*'
-for i in range(0,len(a)):
-    print(a[i],end='')
+   aa[int(len(aa)/2)]='*'
+for i in range(0,len(aa)):
+    print(aa[i],end='')
     
+
