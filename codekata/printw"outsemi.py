@@ -1,2 +1,2 @@
-k=input()
-print(k)
+SD=input()
+print(SD)
