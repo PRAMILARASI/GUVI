@@ -1,8 +1,8 @@
-str=list(input())
-l=len(str)-1
-if l%2!=0:
-    str[l//2]="*"
-    str[l//2+1]="*"
+n=list(input())
+if len(n)%2==0:
+    n[int(len(n)/2)] ='*'
+    n[int(len(n)/2)-1]='*'
 else:
-    str[l//2]="*"
-print("".join(str))
+    n[int(len(n)/2)] ='*'
+for i in range(0,len(n)):
+    print(n[i],end='')
