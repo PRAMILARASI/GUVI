@@ -1,2 +1,2 @@
-ads=[int(x) for x in input().split()]
-print(abs(ads[0]-ads[1])
+aaa=[int(x) for x in input().split()]
+print(abs(aaa[0]-aaa[1]))
