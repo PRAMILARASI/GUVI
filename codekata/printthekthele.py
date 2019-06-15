@@ -1,0 +1,5 @@
+np,pn=input().split()
+np=int(np)
+pn=int(pn)
+aaaa=list(map(int,input().split()))
+print(aaaa[pn-1])
