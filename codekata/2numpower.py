@@ -1,2 +1,2 @@
-N,K=map(int,input().split())
-print(N**K)
+Nn,K=map(int,input().split())
+print(Nn**K)
