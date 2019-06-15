@@ -1,0 +1,5 @@
+p,m=input().split()
+i=p.capitalize()
+k=m.capitalize()
+print(i,end=' ')
+print(k)
