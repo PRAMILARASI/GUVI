@@ -1,5 +1,5 @@
-o,s=input().split()
-if(len(o)==len(s)):
+o,sk=input().split()
+if(len(o)==len(sk)):
     print("yes")
 else:
     print("no")
