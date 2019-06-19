@@ -1,4 +1,4 @@
-n = int(input())
+nd = int(input())
 li = list(map(int,input().split()))
 li1 = li[:]
 li.sort()
