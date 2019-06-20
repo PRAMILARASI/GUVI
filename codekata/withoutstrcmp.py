@@ -1,0 +1,10 @@
+k=input()
+k=k.split()
+e=k[0]
+e2=k[1]
+e=e.lower()
+e2=e2.lower()
+if(e==e2):
+    print("yes")
+else:
+    print("no")
