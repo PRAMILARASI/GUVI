@@ -1,7 +1,7 @@
-def fact(xn):
-    a=1
-    for i in range(1,xn+1):
-        a=a*i
-    return a
-a1 = list(map(int,input().split()))
-print(int(fact(a1[0])/fact(a1[0]-a1[1])))
+nn,r=list(map(int,input().split()))
+a=b=1
+for i in range(1,nn+1):
+    a=a*i
+for i in range(1,(nn-r)+1):
+    b=b*i
+print(a//b)
