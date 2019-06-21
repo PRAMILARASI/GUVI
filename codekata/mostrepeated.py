@@ -1,11 +1,15 @@
 sk=input()
-gk=[]
+p=[]
 for i in sk:
-	if i!=" ":
-		gk.append(sk.count(i))
-m=max(g)
-a=""
-for i in sk:
-	if sk.count(i)==m and i not in a:
-		a=a+i
-print(m,a)
+    p.append(sk.count(i))
+k=max(p)
+out=[]
+for i in range(len(p)):
+    if p[i]==k:
+        o=i
+        out.append(sk[o])
+
+out=set(out)
+print(k,end=" ")
+for i in out:
+    print(i,end="")
