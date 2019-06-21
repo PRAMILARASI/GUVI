@@ -1,10 +1,10 @@
-kk=int(input())
-a=[int(x) for x in input().split()]
-bb=[]
-for i in range(kk):
-    c=a[:i+1]
-    if sum(c)%2==0:
-        bb.append(str(sum(c)))
+nu=int(input())
+lu=[int(x) for x in input().split()]
+p=[]
+for i in range(nu):
+    tc=lu[:i+1]
+    if sum(tc)%2==0:
+        p.append(str(sum(tc)))
     else:
-        bb.append(str(a[i]))
-print(" ".join(b))
+        p.append(str(lu[i]))
+print(" ".join(p))
