@@ -1,5 +1,7 @@
-aa2 = list(map(int,input().split()))
-aa2 = aa2[0] * aa2[1]
-aa3 = bin(aa2)[2:]
-aa3 = aa3[::-1]
-print(aa3.index('1')+1)
+n1,pk=map(int,input().split())
+k=n1*pk
+s=bin(pk)
+for  i in range(0,len(s)):
+    if s[i]=='1':
+        print(i+1)
+        break
