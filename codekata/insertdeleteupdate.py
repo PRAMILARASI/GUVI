@@ -1,15 +1,15 @@
-an,a=map(str,input().split())
+na1,na2=input().split()
 
-g=abs(len(an)-len(a))
+t=abs(len(na1)-len(na2))
 
-for i in range(len(an)):
+for v in range(len(na1)):
 
-        if len(a)==1 and a[i] in n:
+    if len(na2)==1 and na2[v] in n1:
 
-            break
+        break
 
-        if an[i]!=a[i]:
+    if na1[v]!=na2[v]:
 
-            g=g+1
+        t+=1
 
-print(g)
+print(t)
