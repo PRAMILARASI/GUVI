@@ -1,20 +1,24 @@
-as,s2=map(str,input().split())
+def gcd(nn,mm):
 
-x=len(as)
+    x=[]
 
-y=len(s2)
+    for i in range(1,max(nn,mm)):
 
-n=max(x,y)
+        if nn%i==0 and mm%i==0:
 
-c=0
+            x.append(i)
 
-for i in range(1,n):
+    ffw=len(x)
 
-    if x%i==0 and y%i==0:
+    return ffw      
 
-        c=c+1
+a,b=map(str,input().split())
 
-if c==1:
+mm=len(a)
+
+nn=len(b)
+
+if gcd(mm,nn)==1:
 
     print("yes")
 
