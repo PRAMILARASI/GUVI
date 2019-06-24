@@ -1,41 +1,41 @@
-sa=input()
+s=input()
 
-r1=input()
+r=input()
 
-g=[]
+ga=[]
 
-if (sa.isalpha() or " " in sa) and (r1.isalpha() or " " in r1):
+if (s.isalpha() or " " in s) and (r.isalpha() or " " in r):
 
-    sa=list(sa.split(" "))
+    s=list(s.split(" "))
 
-    r1=list(r1.split(" "))
+    r=list(r.split(" "))
 
-    for i in sa:
+    for i in s:
 
-        if sa.count(i) > r1.count(i) and i not in g:
+        if s.count(i) > r.count(i) and i not in g:
 
-            g.append(i)
+            ga.append(i)
 
-    for i in r1:
+    for i in r:
 
-        if r1.count(i)>s.count(i) and i not in g:
+        if r.count(i)>s.count(i) and i not in ga:
 
-            g.append(i)
+            ga.append(i)
 
-    print(*g)
+    print(*ga)
 
 else:
 
-    for i in sa:
+    for i in s:
 
-        if sa.count(i)>r1.count(i) and i not in g:
+        if s.count(i)>r.count(i) and i not in g:
 
-            g.append(i)
+            ga.append(i)
 
-    for j in r1:
+    for j in r:
 
-        if r1.count(j)>s.count(j) and j not in g:
+        if r.count(j)>s.count(j) and j not in ga:
 
-            g.append(j)
+            ga.append(j)
 
-    print(*g)
+    print(*ga)
